@@ -7,7 +7,12 @@ mysqli_connect in the included file gridmap.php to match your
 database user, password & name. Sample images are included in 
 the image folder. Use your own map images, for optimal results.
 
+Please note: This code expects your grid regions to be arranged 
+in a rectangle or square shape. Offline regions that do not
+generate a map tile, will cause the map rendering to be wrong.
+
 Place your map images inside the ./gridmap/images folder, all the
 images should be in the format map-1-x_cord-y_cord-objects.jpg
+
 This script is licenced under the CC0 1.0 Universal (CC0 1.0) 
 Public Domain Dedication by snik snoodle on 18 August 2018.
